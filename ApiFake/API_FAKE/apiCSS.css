@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://static.corinthians.com.br/uploads/ntlO8DmF/WhatsApp-Image-2022-07-13-at-10_00_31.jpeg?rand=488d576f0a3f27b29408bfc7ac07f779b5b37437');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.54);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.ct-logo img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 20px;
+}
+
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.botao:hover{
+    background-color: brown;
+}
+
+
+.cor1{
+    background-color: black;
+    color: white;
+}
+
+
+.cor2{
+    background-color: white;
+    color: black;
+}
+
+
+#info {
+    flex: 1;
+    max-width: 100%;
+    overflow-y: auto; 
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .ct-logo img {
+        margin: 0;
+    }
+}
